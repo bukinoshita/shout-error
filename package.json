@@ -1,0 +1,23 @@
+{
+  "name": "shout-error",
+  "version": "0.0.0",
+  "description": "An opinionated error message",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/shout-error.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo --quiet"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "esnext": true
+  }
+}
