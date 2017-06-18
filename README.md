@@ -15,6 +15,9 @@ const shoutError = require('shout-error')
 
 shoutError('This is a error message')
 //=> > Error! This is a error message
+
+shoutError({ message: 'This is a error message' })
+//=> > Error! This is a error message
 ```
 
 _Uses [chalk](https://github.com/chalk/chalk), will return a error message with a nice color._
@@ -27,7 +30,7 @@ Returns a `console.log`.
 
 #### message
 
-Type: `string`<br>
+Type: `string` or `object`<br>
 Required
 
 
