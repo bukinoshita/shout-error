@@ -6,6 +6,7 @@
   "repository": "https://github.com/bukinoshita/shout-error.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "keywords": ["message", "error", "shout", "console", "handler"],
   "scripts": {
     "test": "xo --quiet"
   },
