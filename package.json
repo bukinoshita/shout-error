@@ -17,7 +17,7 @@
     "test": "xo --quiet"
   },
   "dependencies": {
-    "chalk": "^2.0.0"
+    "chalk": "^3.0.0"
   },
   "devDependencies": {
     "xo": "0.18.2"
