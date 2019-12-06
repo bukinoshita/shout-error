@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --save shout-error
+$ yarn add shout-error
 ```
 
 
