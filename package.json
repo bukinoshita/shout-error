@@ -20,7 +20,7 @@
     "chalk": "^3.0.0"
   },
   "devDependencies": {
-    "xo": "0.25.3"
+    "xo": "0.26.1"
   },
   "xo": {
     "space": true,
