@@ -28,7 +28,7 @@ _Uses [chalk](https://github.com/chalk/chalk), will return a error message with 
 
 #### message
 
-Type: `string` or `instance of Error` or `instance of TypeError`<br>
+Type: `string` or `[instanceof Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)` or `[instanceof TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)`<br>
 Required
 
 #### label
