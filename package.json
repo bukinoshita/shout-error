@@ -2,10 +2,17 @@
   "name": "shout-error",
   "version": "0.0.2",
   "description": "An opinionated error message",
-  "main": "index.js",
-  "repository": "https://github.com/bukinoshita/shout-error.git",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "bukinoshita/shout-error",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "message",
     "error",
@@ -14,17 +21,19 @@
     "handler"
   ],
   "scripts": {
-    "test": "xo --quiet"
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest --config=jest.config.json"
   },
   "dependencies": {
-    "chalk": "^3.0.0"
+    "chalk": "3.0.0"
   },
   "devDependencies": {
-    "xo": "0.25.3"
-  },
-  "xo": {
-    "space": true,
-    "semicolon": false,
-    "esnext": true
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/jest": "25.1.3",
+    "@types/node": "13.7.4",
+    "jest": "25.1.0",
+    "ts-jest": "25.2.1",
+    "typescript": "3.8.2"
   }
 }
