@@ -15,7 +15,7 @@ $ yarn add shout-error
 ```js
 const { shoutError } = require('shout-error')
 
-const error = new TypeError('This is a error message')
+const error = new TypeError('Ops, something wrong happened')
 
 shoutError(error)
 ```
@@ -28,7 +28,7 @@ _Uses [chalk](https://github.com/chalk/chalk), will return a error message with 
 
 #### message
 
-Type: `string` or `instance of Error` or `instance of TypeError<br>
+Type: `string` or `instance of Error` or `instance of TypeError`<br>
 Required
 
 #### label
