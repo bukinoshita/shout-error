@@ -43,4 +43,4 @@ Default: `> Error!`
 
 ## License
 
-MIT © [Bu Kinoshita](https://bukinoshita.io)
+MIT © [Bu Kinoshita](https://bukinoshita.com)
